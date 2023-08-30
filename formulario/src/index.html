@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario FreecodeCamp</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+  </head>
+<body>
+  <h1 id="title">Formulario Free Code Camp</h1>
+  <p id="description">Formulario de alunos FreeCodeCamp.</p>
+  <form id="survey-form">
+
+    <label id="name-label">Insira seu nome:
+      <input type="text" placeholder="Exemplo:João" id="name" required>
+      </label>
+      <label id="email-label">Insira seu email:
+        <input placeholder="Ex: Joao@gmail.com" type="email" id="email" required>
+        </label>
+        <label id="number-label">Insira sua idade:
+          <input type="number" min="13" max="80" placeholder="Ex: 18" id="number" required>
+          </label>Eu Sou:
+    <select id="dropdown">
+      <option value="1" name="masculino">Homem</option>
+      <option value="2" name="feminino">Mulher</option>
+      <option value="3" name="outros">Outros</option>
+    </select>
+    <label>
+      <input type="radio" name="1" value="1" class="inline">Conta Free
+      <input type="radio" name="1" value="2" class="inline">Conta Premiun
+      </label>
+      <label>
+        <input type="checkbox" value="1" class="inline">I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        <br><input type="checkbox" value="2" class="inline">I accept newslater.
+        </label>
+        <label>
+          <textarea></textarea>
+        </label>
+        <label>
+        <input type="submit" value="Submit" id="submit"/>
+          </label>
+          </form>
+        
+
